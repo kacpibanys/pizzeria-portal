@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Homepage.module.scss';
+import Typography from '@material-ui/core/Typography';
 
  const Homepage = () => (
    <div className={styles.component}>
-     <h2>Homepage view</h2>
-
+     <Typography variant="h4">Homepage</Typography>
    </div>
  );
 

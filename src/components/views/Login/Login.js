@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Login.module.scss';
+import Typography from '@material-ui/core/Typography';
 
  const Login = () => (
    <div className={styles.component}>
-     <h2>Login view</h2>
-
+     <Typography variant="h4">Login view</Typography>
    </div>
  );
 

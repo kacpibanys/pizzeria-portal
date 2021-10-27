@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Kitchen.module.scss';
+import Typography from '@material-ui/core/Typography';
 
  const Kitchen = () => (
    <div className={styles.component}>
-     <h2>Kitchen view</h2>
-
+     <Typography variant="h4">Kitchen view</Typography>
    </div>
  );
 
