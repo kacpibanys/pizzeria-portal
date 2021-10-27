@@ -6,7 +6,6 @@ import Button from '@material-ui/core/Button';
 
 const Tables = () => (
   <div className={styles.component}>
-    <h2>Tables view</h2>
     <Typography variant="h4">Tables view</Typography>
     <Button variant="text" component={Link} to={`${process.env.PUBLIC_URL}/tables/booking/new`} >New booking table</Button>
     <Button variant="text" component={Link} to={`${process.env.PUBLIC_URL}/tables/booking/123abc`} >Booked table</Button>
